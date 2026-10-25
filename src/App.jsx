@@ -46,7 +46,7 @@ function AppHeader({ view, onViewChange, itemCount, pendingCount, authUser, onSi
           <span className="mark" lang="te" aria-hidden="true">మ</span>
           <span className="brand-copy">
             <strong>Mana Kirana</strong>
-            <small><span lang="te">మన కిరాణా</span> · Sri Lakshmi Kirana Stores</small>
+            <small><span lang="te">మన కిరాణా</span> · Venkata Kusuma Haranath General Stores</small>
           </span>
         </a>
         <div className="tabs" role="group" aria-label="Switch view">
