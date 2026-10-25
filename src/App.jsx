@@ -631,7 +631,7 @@ function App() {
         ) : (
           <section className="view customer-page" aria-label="Customer ordering">
             <div className="page-heading">
-              <h1>Order from Sri Lakshmi Kirana Stores</h1>
+              <h1>Order from Venkata Kusuma Haranath General Stores</h1>
               <p className="muted">No app to install. Choose online pre-order or entrance QR ordering.</p>
             </div>
             {supabaseConfigured && authUser && customerMessages.length > 0 && <section className="account-messages" aria-label="Order updates"><div><h2>Your order updates</h2><span>Live messages for this account</span></div><ul>{customerMessages.slice(0, 4).map((message) => <li key={message.id}><span>{message.body}</span><time>{new Intl.DateTimeFormat('en-IN', { hour: 'numeric', minute: '2-digit', month: 'short', day: 'numeric' }).format(new Date(message.created_at))}</time></li>)}</ul></section>}
